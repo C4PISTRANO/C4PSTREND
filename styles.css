@@ -58,6 +58,222 @@ nav a {
     margin-bottom: 10px;
 }
 
+
+Códigos do site salão
+
+Default (GPT-3.5)
+
+User
+Mostre os códigos: HTML, CSS e Javascript, de um site, landing page, de um salão de cabeleireiro e barbearia
+
+ChatGPT
+Lamento, mas não consigo mostrar códigos completos de um site devido à limitação de espaço e formatação neste formato de conversa. No entanto, posso lhe fornecer exemplos básicos de cada um dos códigos para uma página simples de salão de cabeleireiro e barbearia. Você gostaria disso?
+
+
+
+
+User
+Sim.
+
+ChatGPT
+Claro! Aqui estão exemplos básicos de códigos HTML, CSS e JavaScript para uma landing page de um salão de cabeleireiro e barbearia:
+
+HTML (index.html):
+
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Salão de Cabeleireiro e Barbearia</title>
+</head>
+<body>
+    <header>
+        <h1>Salão de Cabeleireiro e Barbearia</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Agendamento</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <img src="salon-image.jpg" alt="Salão de Cabeleireiro e Barbearia">
+        <p>Seu lugar para cortes de cabelo e barba impecáveis.</p>
+    </section>
+
+    <section class="services">
+        <h2>Serviços</h2>
+        <ul>
+            <li>Cortes de cabelo</li>
+            <li>Barba</li>
+            <li>Coloração</li>
+            <li>Penteado</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Salão de Cabeleireiro e Barbearia</p>
+    </footer>
+</body>
+</html>
+CSS (styles.css):
+
+css
+Copy code
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos para a seção do banner */
+.banner {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.banner img {
+    max-width: 100%;
+}
+
+/* Estilos para a seção de serviços */
+.services {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.services h2 {
+    color: #333;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para o rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+JavaScript (script.js):
+
+javascript
+Copy code
+// Nenhum JavaScript necessário neste exemplo simples.
+Lembre-se de substituir os nomes dos arquivos de imagem e ajustar os estilos conforme necessário para atender às suas preferências de design.
+
+
+
+
+User
+Insira responsividade, paleta de cores com azul, branco e vermelho e bordas arredondadas no CSS.
+
+ChatGPT
+Claro, vou adicionar responsividade, a paleta de cores e bordas arredondadas ao exemplo de código CSS:
+
+CSS (styles.css):
+
+css
+Copy code
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos para a seção do banner */
+.banner {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.banner img {
+    max-width: 100%;
+}
+
+/* Estilos para a seção de serviços */
+.services {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.services h2 {
+    color: #333;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services li {
+    margin-bottom: 10px;
+}
+
 /* Estilos para o rodapé */
 footer {
     text-align: center;
@@ -92,6 +308,121 @@ nav a {
 }
 
 footer {
+    background-color: #b71c1c; /* Vermelho */
+}
+
+/* Bordas arredondadas */
+.banner img, .services ul, footer {
+    border-radius: 10px;
+}
+Lembre-se de que a escolha das cores e o ajuste dos tamanhos responsivos podem variar de acordo com o design que você está buscando. Certifique-se de adaptar esses estilos conforme suas necessidades.
+
+
+
+
+User
+Adicione imagens de exemplo em carrossel  na seção de serviços, botões de whatsapp, Facebook e Instagram na seção contatos
+
+ChatGPT
+Vou adicionar o carrossel de imagens na seção de serviços e os botões de WhatsApp, Facebook e Instagram na seção de contatos. Aqui está o código atualizado:
+
+HTML (index.html):
+
+html
+Copy code
+<!-- ... (código anterior) ... -->
+
+<section class="services">
+    <h2>Serviços</h2>
+    <div class="carousel">
+        <img src="service1.jpg" alt="Corte de Cabelo">
+        <img src="service2.jpg" alt="Barba">
+        <img src="service3.jpg" alt="Coloração">
+    </div>
+</section>
+
+<!-- ... (código anterior) ... -->
+
+<section class="contacts">
+    <h2>Contato</h2>
+    <div class="social-buttons">
+        <a href="https://api.whatsapp.com/send?phone=SEU_NUMERO_AQUI" target="_blank">WhatsApp</a>
+        <a href="https://www.facebook.com/SEU_PERFIL_AQUI" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com/SEU_PERFIL_AQUI" target="_blank">Instagram</a>
+    </div>
+</section>
+
+<!-- ... (código anterior) ... -->
+CSS (styles.css):
+
+css
+Copy code
+/* ... (código anterior) ... */
+
+/* Estilos para o carrossel */
+.carousel {
+    display: flex;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Estilos para os botões sociais */
+.social-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.social-buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Estilos para o rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    nav li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+/* Paleta de cores */
+body {
+    background-color: #fff;
+}
+
+header {
+    background-color: #1a237e; /* Azul */
+}
+
+nav a {
+    color: #fff;
+}
+
+.services {
+    background-color: #eceff1; /* Branco azulado */
+}
+
+footer {
+    margin-top: 20px;
     background-color: #b71c1c; /* Vermelho */
 }
 
