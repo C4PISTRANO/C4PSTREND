@@ -421,6 +421,28 @@ nav a {
     background-color: #eceff1; /* Branco azulado */
 }
 
+/* Estilos para a seção de profissionais */
+.professionals {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.professionals h2 {
+    color: #333;
+}
+
+.professional-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.professional-images img {
+    max-width: 45%;
+    border-radius: 10px;
+}
+
 footer {
     margin-top: 20px;
     background-color: #b71c1c; /* Vermelho */
